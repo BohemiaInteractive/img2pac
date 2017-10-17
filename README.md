@@ -7,7 +7,9 @@ Converts `jpg` & `png` images to `paa` & `pac` proprietary image format as descr
 
 #### CLI interface
 
+```bash
 > img2pac <source-file> <destination-file>
+```
 
 #### Module interface
 
