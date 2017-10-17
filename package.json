@@ -1,0 +1,42 @@
+{
+  "name": "img2pac",
+  "version": "0.1.0",
+  "description": "converts .jpg & .png images to .pac",
+  "main": "index.js",
+  "bin": {
+      "img2pac": "./bin/img2pac.js"
+  },
+  "scripts": {
+    "tests": "mocha --ui bdd --colors --check-leaks -t 5000 --reporter spec 'test/**/*.js'",
+    "test": "npm run tests"
+  },
+  "keywords": [
+    "pac",
+    "jpg",
+    "png",
+    "image",
+    "arma"
+  ],
+  "files": [
+      "bin",
+      "index.js",
+      "README.md",
+      "LICENCE"
+  ],
+  "author": "Bohemia Interactive",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "concentrate": "^0.2.3",
+    "bi-dxt-js": "0.0.3",
+    "bluebird": "^3.4.6",
+    "get-pixels": "^3.3.0",
+    "yargs": "^8.0.0",
+    "probe-image-size": "^3.1.0"
+  },
+  "devDependencies": {
+    "tmp": "0.0.29",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
+}
