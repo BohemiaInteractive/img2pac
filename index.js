@@ -61,6 +61,10 @@ function uInt24BE(int) {
     return buff;
 }
 
+/**
+ * @param {Buffer} data
+ * @param {String} mime - image mime type
+ */
 function _getPixels(data, mime) {
     return new Promise(function(resolve, reject) {
         getPixels(data, mime, function(err, pixels) {
