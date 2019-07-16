@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/BohemiaInteractive/img2pac.svg?branch=master)](https://travis-ci.org/BohemiaInteractive/img2pac)  
 
-Converts `jpg` & `png` images to `paa` & `pac` proprietary image format as described by the [public PPA file format specs](https://community.bistudio.com/wiki/PAA_File_Format).
+Converts `jpg` & `png` images to `paa` & `pac` proprietary image format as described by the [public PAA file format specs](https://community.bistudio.com/wiki/PAA_File_Format).
 
 > npm i img2pac
 
